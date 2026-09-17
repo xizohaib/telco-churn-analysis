@@ -1,14 +1,14 @@
 # Telco Customer Churn - Data Cleaning & Analysis
 
-This project focuses on cleaning and preparing the **Telco Customer Churn dataset** for further Machine Learning analysis and prediction.
+This project focuses on cleaning, analyzing, and preparing the **Telco Customer Churn dataset** for Machine Learning.
 
-The main goal is to understand the dataset, identify data quality issues, clean the data, and prepare it for Exploratory Data Analysis (EDA) and Machine Learning models.
+The project covers the complete workflow from raw data cleaning and exploratory analysis to model training and evaluation.
 
 ## 📌 Project Overview
 
 Customer churn refers to customers leaving a company's services.
 
-In this project, the Telco Customer Churn dataset is processed using Python and Pandas. The raw dataset is inspected, cleaned, and transformed into a suitable format for further analysis and machine learning.
+In this project, the Telco Customer Churn dataset is processed using Python and Pandas. The raw dataset is inspected, cleaned, transformed, and then used for Machine Learning model training and evaluation.
 
 ## 📂 Repository Structure
 
@@ -20,7 +20,8 @@ telco-churn-analysis/
 │   └── clean_churn.csv
 │
 ├── notebooks/
-│   └── churn_dataset_cleaning.ipynb
+│   ├── churn_dataset_cleaning.ipynb
+│   └── training_and_evaluation.ipynb
 │
 ├── .gitignore
 └── README.md
